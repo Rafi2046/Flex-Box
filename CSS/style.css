@@ -1,0 +1,197 @@
+.container {
+    color: blue;
+    display: flex;
+    padding: 5px;
+}
+
+.insideContainer {
+    border: solid 10px;
+    color: red;
+    width: 28%;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    border-color: black;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.infoContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+
+.cardTitle {
+    font-size: 25px;
+    font-weight: bold;
+    color: #babd02;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.category {
+    color: #01a90c;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.team {
+    background-color: rgba(0, 255, 30, 0.156);
+    border-radius: 8px;
+    font-size: 60px;
+
+}
+
+.kitNumber {
+    font-size: 30px;
+    color: rgb(216, 154, 8);
+
+    top: 44%;
+    left: 49.5%;
+
+}
+
+.imgContainer {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 10px;
+}
+
+.boxImage {
+    width: 100%;
+    border-radius: 10px;
+    filter: brightness(60%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+}
+
+.imgText {
+    position: absolute;
+    top: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    left: 1px;
+    margin-left: -10px;
+    border-radius: 10px;
+}
+
+.skillsContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    justify-content: center;
+}
+
+.oneSkill {
+    border: solid 3px #059a9d;
+
+    border-radius: 5px;
+    padding: 2px;
+    margin: 2px;
+    font-size: 15px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.oneSkill:hover {
+    color: #01a90c;
+    background-color: goldenrod;
+    transition: .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 80rem) {
+    .container {
+        margin: 1em 2em;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+/* For desktop: */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
